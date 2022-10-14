@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InputGraphBound</class>
+ <widget class="QDialog" name="InputGraphBound">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>381</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="labelX">
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelXFrom">
+      <property name="text">
+       <string>from</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDoubleSpinBox" name="spinBoxXMin">
+      <property name="minimum">
+       <double>-1000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>1000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>-10.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelXTo">
+      <property name="text">
+       <string>to</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDoubleSpinBox" name="spinBoxXMax">
+      <property name="minimum">
+       <double>-1000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>1000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>10.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>381</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="labelY">
+      <property name="text">
+       <string>Y</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelYFrom">
+      <property name="text">
+       <string>from</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDoubleSpinBox" name="spinBoxYMin">
+      <property name="minimum">
+       <double>-1000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>1000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>-10.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelYTo">
+      <property name="text">
+       <string>to</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDoubleSpinBox" name="spinBoxYMax">
+      <property name="minimum">
+       <double>-1000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>1000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>10.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOk">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>240</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

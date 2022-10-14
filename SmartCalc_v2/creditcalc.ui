@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreditCalc</class>
+ <widget class="QDialog" name="CreditCalc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>569</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>9</y>
+     <width>571</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="3">
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>Years</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Month</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QSpinBox" name="spinBoxTerm">
+      <property name="value">
+       <number>1</number>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QRadioButton" name="radioButtonAnnuityType">
+      <property name="text">
+       <string>annuity</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="labelType">
+      <property name="text">
+       <string>Type</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxInterestRate">
+      <property name="value">
+       <double>9.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" colspan="2">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Calculate</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="labelTerm">
+      <property name="text">
+       <string>Term</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="labelInterestRate">
+      <property name="text">
+       <string>Interest rate</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QRadioButton" name="radioButtonDifferentiatedType">
+      <property name="text">
+       <string>differentiated</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="labelTotalCreditAmount">
+      <property name="text">
+       <string>Total credit amount</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxTotalCreditAmount">
+      <property name="maximum">
+       <double>99999999999.990005493164063</double>
+      </property>
+      <property name="value">
+       <double>100000.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>540</y>
+     <width>551</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
